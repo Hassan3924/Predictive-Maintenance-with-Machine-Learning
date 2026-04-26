@@ -12,3 +12,4 @@ openpyxl
 summarytools
 imblearn
 skimpy
+eli5
