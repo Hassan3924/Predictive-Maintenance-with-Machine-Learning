@@ -1,0 +1,37 @@
+# Astro CLI local development state (very important)
+.astro/
+
+# Environment variables and settings
+.env
+.env.local
+airflow_settings.yaml
+
+# Logs and temporary Airflow files
+logs/
+airflow.db
+airflow-webserver.pid
+
+# Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments (in case you ever use one)
+.venv
+venv/
+ENV/
+
+# Testing cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/.history
+.idea/
+.python-version
